@@ -41,6 +41,13 @@ module.exports = {
        host:"127.0.0.1",
        port:"7545",
        network_id:"*" //Match  any network id
+     },
+     rinkeby :
+     {
+       host:"127.0.0.1",
+       port:"3334",
+       network_id:4, //Rinkeby
+       gas:4700000 //Match  any network id
      }
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
